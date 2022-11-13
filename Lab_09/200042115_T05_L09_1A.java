@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-public class GFG {
+public class UniqueCharacterSet {
 
     static final int MAX_CHAR = 26;
 
