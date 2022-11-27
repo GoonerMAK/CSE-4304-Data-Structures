@@ -44,7 +44,9 @@ public class UniqueCharacterSet {
             {
                 ArrayList<Integer> get_al = Hash.get(key);
                 get_al.add(i);
+                System.out.println(get_al);
                 Hash.put(key, get_al);
+                System.out.println(Hash);
             }
 
 
@@ -52,7 +54,9 @@ public class UniqueCharacterSet {
             {
                 ArrayList<Integer> new_al = new ArrayList<>();
                 new_al.add(i);
+                System.out.println(new_al);
                 Hash.put(key, new_al);
+                System.out.println(Hash);
             }
         }
 
@@ -80,7 +84,7 @@ public class UniqueCharacterSet {
 
 
         int n = words.length;
-        System.out.println(n);
+        System.out.println("Size of the sentence: " + n);
 
         wordsWithSameCharSet(words, n);
     }
